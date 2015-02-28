@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>CSS3瀑布布局</title>
+<style>
+        .container{
+                -webkit-column-width:160px;
+                -moz-column-width:160px;
+                -o-colum-width:160px;
+                -webkit-column-gap:1px;
+                -moz-column-gap:1px;
+                -o-column-gap:1px;
+        }
+        div:not(.container){
+                -webkit-border-radius:5px;
+                -moz-border-radius:5px;
+                border-radius:5px;
+                background:#90EE90;
+                border::#CCC 1px solid;
+                display:inline-block;
+                width:157px;
+                position:relative;
+                margin:2px;
+        }
+        .title{
+                 line-height:80px; font-size:18px; color:#999;
+                 text-align:center;
+                 font-family:"Microsoft YaHei";
+        }
+</style>
+</head>
+
+<body>
+<section>
+        <div class="container">
+        <div style="height:80px" class="title">纯CSS3瀑布布局</div>
+        <div style="height:260px"></div>
+        <div style="height:65px"></div>
+        <div style="height:120px"></div>
+        <div style="height:145px"></div>
+        <div style="height:90px"></div>
+        <div style="height:145px"></div>
+        <div style="height:160px"></div>
+        <div style="height:65px"></div>
+        <div style="height:230px"></div>
+        <div style="height:140px"></div>
+        <div style="height:85px"></div>
+        <div style="height:20px"></div>
+        <div style="height:145px"></div>
+        <div style="height:50px"></div>
+        <div style="height:65px"></div>
+        <div style="height:230px"></div>
+        <div style="height:140px"></div>
+        <div style="height:85px"></div>
+        <div style="height:20px"></div>
+        <div style="height:145px"></div>
+        <div style="height:50px"></div>
+        <div style="height:145px"></div>
+        <div style="height:160px"></div>
+        <div style="height:240px"></div>
+    </div>
+</section>
+</body>
+</html>
