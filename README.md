@@ -5,6 +5,6 @@ With two kinds of methods to achieve absolute positioning waterfall.
 ![](https://github.com/jingwhale/javascript-waterfall/raw/master/readme.jpg)
 <br>
 <br>
-# javascript-waterfall
+# metro-waterfall
 ![](https://github.com/jingwhale/javascript-waterfall/raw/master/readme1.jpg)
 
